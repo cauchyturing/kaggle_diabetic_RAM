@@ -1,4 +1,8 @@
 # Kaggle Diabetic Retinopathy Detection
+### Introduction
+This codes are an extension for the Kaggle Diabetic Retinopathy Detection competitation with the support of RAM (Regression Activation Map) to localize the ROI which contributing to the specific severities of DR. A breif stats of the performance of the model is summarized as 
+
+More detailed about RAM please see the CAM.ipynb and our paper (TODO).
 
 ### Installation
 
