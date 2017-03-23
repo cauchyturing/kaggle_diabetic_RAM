@@ -2,6 +2,16 @@
 ### Introduction
 This codes are an extension for the Kaggle Diabetic Retinopathy Detection competitation with the support of RAM (Regression Activation Map) to localize the ROI which contributing to the specific severities of DR. A breif stats of the performance of the model is summarized as 
 
+|                                  |          |          | 
+|----------------------------------|----------|----------| 
+|                                  |Baseline  |  ours    | 
+| Test Kappa (Public Leaderboard)  | 0.85425  | 0.85038  | 
+| Test Kappa (Private Leaderboard) | 0.84479  | 0.84118  | 
+| Parameter # (net-5)              | 12.4M    | 9.7M     | 
+| Training time (second/epoch)     | 422.1    | 367.3    | 
+| Parameter # (net-4)              | 12.5M    | 9.8M     | 
+| Training time (second/epoch)     | 451.7    | 398.2    | 
+
 More detailed about RAM please see the CAM.ipynb and our paper (TODO).
 
 ### Installation
