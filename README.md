@@ -11,6 +11,7 @@ This codes are an extension for the Kaggle Diabetic Retinopathy Detection compet
 | Training time (second/epoch)     | 422.1    | 367.3    | 
 | Parameter # (net-4)              | 12.5M    | 9.8M     | 
 | Training time (second/epoch)     | 451.7    | 398.2    | 
+| Support RAM for visual explaination                   | No       | Yes    |
 
 More detailed about RAM please see the CAM.ipynb and our paper (TODO).
 
