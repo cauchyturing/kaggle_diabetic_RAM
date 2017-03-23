@@ -13,6 +13,7 @@ This codes are an extension for the Kaggle Diabetic Retinopathy Detection compet
 | Training time (second/epoch)     | 451.7    | 398.2    | 
 | Support RAM for visual explaination                   | No       | Yes    |
 
+We heavily adopt the solution from https://github.com/sveitser/kaggle_diabetic, bravos!
 More detailed about RAM please see the CAM.ipynb and our paper (TODO).
 
 ### Installation
