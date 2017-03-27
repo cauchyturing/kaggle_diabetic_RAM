@@ -18,8 +18,7 @@ We heavily adopt the solution from https://github.com/sveitser/kaggle_diabetic, 
 The example RAM generated from the neural networks on 128 and 256 pixel images area as below.
 ![levelRAM](https://www.dropbox.com/s/8nc89ovymsn0f49/levelRAM.png?dl=1)
 
-For the mild-conditioned patients, RAM learned to dis-
-cover the narrowing of the retinal arteries associated with
+For the mild-conditioned patients, RAM learned to discover the narrowing of the retinal arteries associated with
 reduced retinal blood flow (Figure (d)), where the vessel
 shows dark red. The dysfunction of the neurons of the inner
 retina, followed in later stages (moderate) by changes in the
@@ -34,8 +33,7 @@ flow and progressive ischemia and microscopic aneurysm-
 s which appear as balloon-like structures jutting out from
 the capillary walls. RAM, as shown in Figure (b), learned
 to converge its focus on the border where the balloon-like
-structures occurs. As the disease progresses to the prolifer-
-ative stage, the lack of oxygen in the retina causes fragile,
+structures occurs. As the disease progresses to the proliferative stage, the lack of oxygen in the retina causes fragile,
 new, blood vessels to grow along the retina and in the clear,
 gel-like vitreous humour that fills the inside of the eye. In
 Figure (a), RAM shows the model put its attention on the
