@@ -15,7 +15,35 @@ This codes are an extension for the Kaggle Diabetic Retinopathy Detection compet
 
 We heavily adopt the solution from https://github.com/sveitser/kaggle_diabetic, bravos to the author!
 
+The example RAM generated from the neural networks on 128 and 256 pixel images area as below.
 ![levelRAM](https://www.dropbox.com/s/8nc89ovymsn0f49/levelRAM.png?dl=1)
+
+For the mild-conditioned patients, RAM learned to dis-
+cover the narrowing of the retinal arteries associated with
+reduced retinal blood flow (Figure (d)), where the vessel
+shows dark red. The dysfunction of the neurons of the inner
+retina, followed in later stages (moderate) by changes in the
+function of the outer retina are captured in Figure (c), as
+such dysfunction protects the retina from many substances
+in the blood (including toxins and immune cells), leading to
+the leaking of blood constituents into the retinal neuropile.
+When the patients are round the next stage (severe), as the
+basement membrane of the retinal blood vessels thickens,
+capillaries degenerate and lose cells leading to loss of blood
+flow and progressive ischemia and microscopic aneurysm-
+s which appear as balloon-like structures jutting out from
+the capillary walls. RAM, as shown in Figure (b), learned
+to converge its focus on the border where the balloon-like
+structures occurs. As the disease progresses to the prolifer-
+ative stage, the lack of oxygen in the retina causes fragile,
+new, blood vessels to grow along the retina and in the clear,
+gel-like vitreous humour that fills the inside of the eye. In
+Figure (a), RAM shows the model put its attention on the
+grey dots scattering around, which undoubtly demonstrate
+the proliferative stage. We also note that if the patient has
+no DR and the score predicted by the model is smaller than
+0.5, then the RAM uniformly shows the dot-like focus near
+the pupil ((e)).
 
 More detailed about RAM please see the CAM.ipynb and our paper (TODO).
 
