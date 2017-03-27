@@ -15,6 +15,8 @@ This codes are an extension for the Kaggle Diabetic Retinopathy Detection compet
 
 We heavily adopt the solution from https://github.com/sveitser/kaggle_diabetic, bravos to the author!
 
+![levelRAM](https://www.dropbox.com/s/8nc89ovymsn0f49/levelRAM.png?dl=1)
+
 More detailed about RAM please see the CAM.ipynb and our paper (TODO).
 
 ### Installation
