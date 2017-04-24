@@ -45,9 +45,10 @@ the pupil ((e)).
 
 More detailed about RAM please see the CAM.ipynb and our report:
 
-Diabetic Retinopathy Detection via Deep Convolutional Networks for Discriminative Localization and Visual Explanation
-
+**Diabetic Retinopathy Detection via Deep Convolutional Networks for Discriminative Localization and Visual Explanation.**<br />
+Zhiguang Wang, Jianbo Yang <br />
 https://arxiv.org/pdf/1703.10757
+
 
 ### Installation
 
