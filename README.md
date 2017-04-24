@@ -43,7 +43,9 @@ no DR and the score predicted by the model is smaller than
 0.5, then the RAM uniformly shows the dot-like focus near
 the pupil ((e)).
 
-More detailed about RAM please see the CAM.ipynb and our paper (TODO).
+More detailed about RAM please see the CAM.ipynb and our report 
+Diabetic Retinopathy Detection via Deep Convolutional Networks for Discriminative Localization and Visual Explanation
+https://arxiv.org/pdf/1703.10757
 
 ### Installation
 
